@@ -1,0 +1,11 @@
+[package]
+name = "run"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1.11", features = ["derive"] }
+reqwest = { version = "0.11.15", features = ["gzip"] }
+scraper = "0.15.0"
+thiserror = "1.0.40"
+tokio = { version = "1.26.0", features = ["full"] }
